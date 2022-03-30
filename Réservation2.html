@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+		#top-page{
+		height: 50px;
+        background-color: #3c5a99;
+	    padding: 20px ;
+
+	}
+		#a{
+		color: #d9dfeb;
+		text-decoration: none;
+		text-align: ;
+		height: 100vh;
+	}
+		#nav{
+		
+        color: #d9dfeb;
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+	    width: 1300px;
+	    height: 100px;
+	    text-align: center; 
+	}
+
+	#bar2{
+		background-color: rgba(211, 211, 211, 0.5);
+	    width: 500px;
+		height: 500px;
+		margin: left;
+		margin-top: 50px;
+	    border-radius: 4px;
+	    border:none;
+		
+
+	}
+		#button{
+		width: 200px;
+		height: 40px;
+		border-radius: 4px; 
+		font-weight: bold;
+		border:none;
+		background-color: rgb(59,89,152);
+		color: white;
+
+
+
+
+	}
+</style>
+<body style="background-image: url(img4.jpg); background-size: cover;">
+		<section id="top-page">
+            <nav id="nav">
+            	<li><a style="font-size: 40px;">Flight reservation</a></li>
+                <li><a style="font-size: 20px;" id="a"  href="Réservation2.html">Offres et promotion</a></li>
+                <li><a  id="a" style="font-size: 20px;"  href="#">Réserver</a></li>
+                <li><a  id="a" style="font-size: 20px;" href="#">Consulter ma réservation</a></li>
+            </nav>
+         </section>
+  
+	<fieldset id="bar2" >
+		<form>
+			<h3 style="color: #FFF3D8; font-size: 30px; text-align: center;">Réserver votre vol maintenant !</h3>
+			<table style="margin-left: 60px;">
+				<tr>
+					<td colspan="2" style="width: 50px" > Départ :<br><br></td>
+					<td>    <select name="départ">
+                        		<option value = "ALG">Alger(ALG)</option>
+                        		<option value = "ALG">Oran</option>
+                        		<option value = "ALG">Annaba</option>
+                        		<option value = "ALG">Canstantine</option>
+                        	</select>
+                        	<br><br>
+                        </td>
+				</tr>
+				
+				<tr>
+					<td colspan="2"> Déstination :<br><br></td>
+					<td><input type = "text" placeholder="Vers"><br><br></td>
+				</tr>
+
+				<tr>
+					<td colspan="2">Date départ :<br><br></td>
+					<td> <input type = "date" value="Départ" placeholder="Départ"><br><br></td>
+				</tr>
+				<tr>
+					<td colspan="2"> Date Retour :<br><br></td>
+					<td><input type = "date" value="Retour" placeholder="Retour"><br><br></td>
+				</tr>
+				<tr>
+					<td colspan="2"> class :<br><br> </td>
+					<td> <select name = "class">
+                                <option value = "hour-select">Economique</option>
+                                <option value = "Affaires">Affaire</option>
+                                <option value = "Premiéres">Premiéres</option>
+                            </select><br><br></td>
+				</tr>
+				<tr><td colspan="2"> Nombre de personnes :<br><br></td>
+					<td style="display: flex; height: 20px;"><input style="width: 60px; margin-right: 5px;" type = "number" placeholder="Adulte" min = "1"><br><br>
+					<input style="width: 60px; margin-right: 5px;" type = "number" placeholder="Enfant" min = "1"><br><br>
+					<input style="width: 60px; margin-right: 5px;" type = "number" placeholder="Bébé" min = "1"><br><br></td>
+
+				</tr>
+				<tr> <td colspan="2">Code promo :<br><br><br></td>
+                     <td><input type = "text" placeholder="Code promo"><br><br><br></td>
+
+				</tr>
+
+				<tr >
+					<td colspan="2" style="letter-spacing: 1px; "><input style="margin-left: 90px;" id="button" type = "submit" value = "Réserver">
+			
+					</td>
+				</tr>
+			</table>
+		</form>
+	</fieldset>
+
+</body>
+</html>
